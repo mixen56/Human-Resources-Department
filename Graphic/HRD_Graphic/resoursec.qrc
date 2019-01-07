@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/danger.png</file>
+        <file>img/unit.jpg</file>
+        <file>img/unit.png</file>
+    </qresource>
+</RCC>

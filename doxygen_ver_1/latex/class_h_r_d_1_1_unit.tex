@@ -1,0 +1,130 @@
+\section{H\+RD\+:\+:Unit Class Reference}
+\label{class_h_r_d_1_1_unit}\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+
+
+{\ttfamily \#include $<$\+\_\+\+Unit\+\_\+.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Unit} \& \textbf{ add\+\_\+worker} (int, \textbf{ Us\+\_\+worker} $\ast$, \textbf{ Unit} $\ast$)
+\item 
+\textbf{ Unit} \& \textbf{ add\+\_\+unit} (int, \textbf{ Us\+\_\+worker} $\ast$, \textbf{ Unit} $\ast$)
+\item 
+\textbf{ Worker} $\ast$ \textbf{ find} (int chifr)
+\item 
+\textbf{ Unit} $\ast$ \textbf{ find} (char $\ast$)
+\item 
+\textbf{ Unit} \& \textbf{ del} (int)
+\item 
+char $\ast$ \textbf{ get\+Name} ()
+\item 
+\textbf{ $\sim$\+Unit} ()
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \textbf{ operator$<$$<$} (std\+::ostream \&, const \textbf{ Unit} \&)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file \+\_\+\+Unit\+\_\+.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_h_r_d_1_1_unit_a83e071cb3bd439e18fa210d9fa063354}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!````~Unit@{$\sim$\+Unit}}
+\index{````~Unit@{$\sim$\+Unit}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{$\sim$\+Unit()}
+{\footnotesize\ttfamily H\+R\+D\+::\+Unit\+::$\sim$\+Unit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 26 of file \+\_\+\+Unit\+\_\+.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_h_r_d_1_1_unit_a5f1c508ce722f12b45cfceda516df5e0}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!add\+\_\+unit@{add\+\_\+unit}}
+\index{add\+\_\+unit@{add\+\_\+unit}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{add\+\_\+unit()}
+{\footnotesize\ttfamily \textbf{ Unit} \& H\+R\+D\+::\+Unit\+::add\+\_\+unit (\begin{DoxyParamCaption}\item[{int}]{chifr,  }\item[{\textbf{ Us\+\_\+worker} $\ast$}]{person,  }\item[{\textbf{ Unit} $\ast$}]{unit }\end{DoxyParamCaption})}
+
+
+
+Definition at line 17 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+\mbox{\label{class_h_r_d_1_1_unit_a3fdb4538b6b906a5045eacd6c556ec32}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!add\+\_\+worker@{add\+\_\+worker}}
+\index{add\+\_\+worker@{add\+\_\+worker}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{add\+\_\+worker()}
+{\footnotesize\ttfamily \textbf{ Unit} \& H\+R\+D\+::\+Unit\+::add\+\_\+worker (\begin{DoxyParamCaption}\item[{int}]{chifr,  }\item[{\textbf{ Us\+\_\+worker} $\ast$}]{person,  }\item[{\textbf{ Unit} $\ast$}]{unit }\end{DoxyParamCaption})}
+
+
+
+Definition at line 6 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+\mbox{\label{class_h_r_d_1_1_unit_a459dcefa63b6fe7086892e9831cc25fc}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!del@{del}}
+\index{del@{del}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{del()}
+{\footnotesize\ttfamily \textbf{ Unit} \& H\+R\+D\+::\+Unit\+::del (\begin{DoxyParamCaption}\item[{int}]{chifr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 57 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+\mbox{\label{class_h_r_d_1_1_unit_a7b60052481b820bcd16ec927ecc78060}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!find@{find}}
+\index{find@{find}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{find()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \textbf{ Worker} $\ast$ H\+R\+D\+::\+Unit\+::find (\begin{DoxyParamCaption}\item[{int}]{chifr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+\mbox{\label{class_h_r_d_1_1_unit_a6a1408ecce3ee070d8bdeb537d8ee71a}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!find@{find}}
+\index{find@{find}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{find()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \textbf{ Unit} $\ast$ H\+R\+D\+::\+Unit\+::find (\begin{DoxyParamCaption}\item[{char $\ast$}]{unit }\end{DoxyParamCaption})}
+
+
+
+Definition at line 43 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+\mbox{\label{class_h_r_d_1_1_unit_ae182e56ce7319b2ff4824c5ba7a7f945}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{get\+Name()}
+{\footnotesize\ttfamily char$\ast$ H\+R\+D\+::\+Unit\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 24 of file \+\_\+\+Unit\+\_\+.\+h.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_h_r_d_1_1_unit_ac0bce1523e9a2843a631a23662ac239b}} 
+\index{H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!H\+R\+D\+::\+Unit@{H\+R\+D\+::\+Unit}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{s,  }\item[{const \textbf{ Unit} \&}]{st }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 77 of file \+\_\+\+Unit\+\_\+.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Mixen/\+Desktop/Маслов Андрей/\+C++/\+I\+I\+I сем/\+Human\+\_\+\+Resources\+\_\+\+Department/\+Human\+\_\+\+Resources\+\_\+\+Department/\textbf{ \+\_\+\+Unit\+\_\+.\+h}\item 
+C\+:/\+Users/\+Mixen/\+Desktop/Маслов Андрей/\+C++/\+I\+I\+I сем/\+Human\+\_\+\+Resources\+\_\+\+Department/\+Human\+\_\+\+Resources\+\_\+\+Department/\textbf{ \+\_\+\+Unit\+\_\+.\+cpp}\end{DoxyCompactItemize}

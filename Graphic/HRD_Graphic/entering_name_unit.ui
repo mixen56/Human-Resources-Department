@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Entering_name</class>
+ <widget class="QDialog" name="Entering_name">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>186</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>331</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выберите один из представленных пунктов</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RECRUIT">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>551</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Оформить назначение сотрудника на должность</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TRANSFER">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>551</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Оформить перевод сотрудника</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DISMISS">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>551</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Оформить увольнение сотрудника</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SHOW">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>551</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вывести структуру предприятия</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

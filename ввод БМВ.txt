@@ -1,0 +1,1 @@
+BMW\n1\n1\nMaslov A.P.\n1999\nboss\nMEPHI\n100000\nBMW_CORP\nBMW\n1\n1\nAnton\n1999\nZam\nMephi\n50000\nBMW_SALE\nBMW_CORP\n1\n0\nIlya\n2000\nsaler\nsamgtu\n40000\nBMW_SALE\n1\n0\nSergey\n1999\nconsultant\nMGU\n30000\nBMW_CORP\n
